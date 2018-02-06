@@ -1,0 +1,32 @@
+{
+  "name": "jables",
+  "version": "1.0.0",
+  "description": "Jest + Babel template for npm modules",
+  "main": "lib/index.js",
+  "repository": "https://github.com/vspedr/jables",
+  "author": "vspedr",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.1.4",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "build": "rimraf lib && babel src/ --out-dir lib",
+    "lint": "eslint .",
+    "precommit": "yarn lint",
+    "prepublish": "yarn test && yarn build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "husky": "^0.14.3"
+  }
+}

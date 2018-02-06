@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - lts/*
+
+before_script:
+  - yarn lint
+
+script:
+  - yarn test --coverage
+
+after_script:
+  - yarn build

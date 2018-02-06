@@ -1,0 +1,20 @@
+# jables :guitar: [![Build Status](https://travis-ci.org/vspedr/jables.svg?branch=master)](https://travis-ci.org/vspedr/jables)
+## Jest + Babel template for npm modules
+
+A simple, opinionated way to bootstrap a npm module, written in ES6+ and transpiled/minified into ES5.
+
+### Usage
+
+Dead simple. Fork this repo into your account, or run
+`git clone https://github.com/vspedr/jables` and hack away. Make sure you update any relevant information in `package.json` before publishing a module.
+
+### Scripts
+- `build`: transpiles and minifies all code in `./src` into `./lib` using babel;
+- `lint`: lints code in `./src` using `eslint` with `eslint-config-airbnb-base`;
+- `precommit`: (automatic) runs linter before every commit;
+- `prepublish`: (automatic) runs tests before attempting to publish the package;
+- `test`: runs tests in `__tests__` using `jest`.
+
+**Note**: scripts assume you use `yarn`, because you should ;)
+
+> Dio can you hear me, I am lost and so alone - J.B.
