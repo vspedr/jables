@@ -1,6 +1,8 @@
 # jables :guitar: [![Build Status](https://travis-ci.org/vspedr/jables.svg?branch=master)](https://travis-ci.org/vspedr/jables)
 ## Jest + Babel template for npm modules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vspedr/jables.svg)](https://greenkeeper.io/)
+
 A simple, opinionated way to bootstrap a npm module, written in ES6+ and transpiled/minified into ES5.
 
 ### Usage
