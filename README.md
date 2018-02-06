@@ -1,7 +1,9 @@
-# jables :guitar: [![Build Status](https://travis-ci.org/vspedr/jables.svg?branch=master)](https://travis-ci.org/vspedr/jables)
+# jables :guitar:
 ## Jest + Babel template for npm modules
 
+[![Build Status](https://travis-ci.org/vspedr/jables.svg?branch=master)](https://travis-ci.org/vspedr/jables)
 [![Greenkeeper badge](https://badges.greenkeeper.io/vspedr/jables.svg)](https://greenkeeper.io/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8b4adc5619fd52a44f64/maintainability)](https://codeclimate.com/github/vspedr/jables/maintainability)
 
 A simple, opinionated way to bootstrap a npm module, written in ES6+ and transpiled/minified into ES5.
 
