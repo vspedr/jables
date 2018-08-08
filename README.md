@@ -14,7 +14,7 @@ Dead simple. Fork this repo into your account, or run
 
 ### Scripts
 - `build`: transpiles and minifies all code in `./src` into `./lib` using babel;
-- `lint`: lints code in `./src` using `eslint` with `eslint-config-airbnb-base`;
+- `lint`: lints code in `./src` using `eslint`;
 - `precommit`: (automatic) runs linter before every commit;
 - `prepublish`: (automatic) runs tests before attempting to publish the package;
 - `test`: runs tests in `__tests__` using `jest`.
