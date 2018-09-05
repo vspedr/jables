@@ -14,7 +14,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.4.0",
     "eslint": "^5.0.1",
-    "eslint-config-google": "^0.9.1",
+    "eslint-config-google": "^0.10.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^0.14.3",
     "jest": "^22.1.4",
