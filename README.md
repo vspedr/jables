@@ -9,8 +9,7 @@ A simple, opinionated way to bootstrap a npm module, written in ES6+ and transpi
 
 ### Usage
 
-Dead simple. Fork this repo into your account, or run
-`git clone https://github.com/vspedr/jables` and hack away. Make sure you update any relevant information in `package.json` before publishing a module.
+Dead simple. Click the `Use this template` button! Make sure you update any relevant information in `package.json` and `README.md` before publishing a module.
 
 ### Scripts
 - `build`: transpiles and minifies all code in `./src` into `./lib` using babel;
