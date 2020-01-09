@@ -16,7 +16,7 @@
     "eslint": "^6.0.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.8.0",
-    "husky": "^3.0.0",
+    "husky": "^4.0.2",
     "jest": "^22.1.4",
     "rimraf": "^3.0.0"
   },
